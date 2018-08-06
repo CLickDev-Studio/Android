@@ -1,0 +1,4 @@
+<manifest>
+	<!--- Vendor Files ClickProject --->
+	<project path="vendor/aosp" name="platform_vendor_aosp" remote="cp" />
+</manifest>
