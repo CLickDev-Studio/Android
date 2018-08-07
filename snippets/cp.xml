@@ -1,6 +1,6 @@
 <manifest>
-	<!--- Vendor Files ClickProject --->
+	<!-- Vendor Files From ClickProject -->
 	<project path="vendor/aosp" name="platform_vendor_aosp" remote="cp" />
-	<!--- ClickProject Apps --->
+	<!-- ClickProject Apps -->
 	<project path="packages/apps/ClickWallpapers" name="platform_packages_apps_WallPapers" remote="cp" />
 </manifest>
