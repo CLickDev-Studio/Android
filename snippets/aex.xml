@@ -2,15 +2,6 @@
 <manifest>
 
   <project path="manifest" name="manifest" remote="aex" />
-  <project path="build/make" name="platform_build" remote="aex" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="aex" />
   <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="aex" >
     <linkfile src="root.bp" dest="Android.bp" />
