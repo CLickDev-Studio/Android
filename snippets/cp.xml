@@ -14,5 +14,4 @@
 	<!-- ClickProject Apps -->
 	<project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="cp" />
 	<project path="packages/wallpapers/ClickWallpapers" name="platform_packages_apps_WallPapers" remote="cp" />
-	<project path="packages/apps/PCenter" name="platform_packages_apps_PerfCenter" remote="cp" />
 </manifest>
