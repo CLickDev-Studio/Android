@@ -58,7 +58,7 @@ Finally to build:
 ```bash
   source build/envsetup.sh
   lunch aosp_device_codename-userdebug
-  make -j4
+  make cp -j4
 ```
 
 
